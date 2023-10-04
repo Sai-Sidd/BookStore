@@ -1,0 +1,41 @@
+.sidebar {
+  width: 70px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-right: 1px solid #ccc;
+  transition: width 0.3s;
+}
+
+.sidebar.open {
+  width: 250px;
+}
+
+.sidebar-icon {
+  cursor: pointer;
+}
+
+.sidebar-icon i {
+  font-size: 24px;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-links {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-link {
+  padding: 10px 0;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: block;
+}
+
+.sidebar-link:hover {
+  color: #555;
+}

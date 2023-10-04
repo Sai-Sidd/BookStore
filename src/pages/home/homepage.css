@@ -1,0 +1,15 @@
+/* Add your styles for the homepage */
+.page-container {
+  padding: 20px;
+}
+
+.page-content {
+  margin-bottom: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+}
+
+/* ... Additional styles for the homepage ... */
